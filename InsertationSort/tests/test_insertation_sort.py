@@ -1,5 +1,5 @@
 import unittest
-import InsertationSort
+from src.InsertationSort import InsertationSort
 
 
 class TestInsertationSort(unittest.TestCase):
