@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "insertationsort"
+version = "1.0.0"
+description = ""
+authors = ["HardPacific <93593742+Hard-Pacific@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
