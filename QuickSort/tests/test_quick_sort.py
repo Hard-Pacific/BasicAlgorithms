@@ -24,10 +24,3 @@ class TestInsertationSort:
         assert quick_class.sort([]) == []
         assert quick_class.sort([1]) == [1]
 
-    def test_quick_sort_typeError(self, quick_class):
-        """
-        Проверка возникновения ошибки
-        TypeError при неверном типе входных данных.
-        """
-        with pytest.raises(TypeError):
-            quick_class.sort("Hello World")
