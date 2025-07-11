@@ -10,5 +10,6 @@ Builds the final sorted array (or list) one item at a time.
 ## [Selection sort](https://github.com/Hard-Pacific/BasicAlgorithms/tree/main/SelectionSort)
 Finds the minimum element in each iteration and places it at the beginning.
 
-
+## [Quick sort](https://github.com/Hard-Pacific/BasicAlgorithms/tree/main/QuickSort)
+Another efficient, general-purpose, comparison-based sorting algorithm based on the divide and conquer technique.
  
