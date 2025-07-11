@@ -1,34 +1,40 @@
+"""
+Реализация алгоритма быстрой сортировки (QuickSort) для списка целых чисел.
+
+QuickSort - это алгоритм "разделяй и властвуй", который работает, выбирая "опорный" элемент из списка
+и разделяя остальные элементы на два подсписка: элементы меньше опорного и элементы больше опорного.
+Затем подсписки рекурсивно сортируются.
+
+В данной реализации в качестве опорного элемента выбирается случайный элемент, чтобы избежать наихудших сценариев
+(например, когда список уже отсортирован), которые могут ухудшить производительность.
+"""
+
+
 from random import choice
 
 class QuickSort:
     """
-    Implements the QuickSort algorithm for sorting a list of integers.
-
-    QuickSort is a divide-and-conquer algorithm that works by selecting a 'pivot' element from the list
-    and partitioning the other elements into two sub-lists, according to whether they are less than or
-    greater than the pivot.  The sub-lists are then recursively sorted.
-
-    This implementation uses a randomly chosen element as the pivot to help avoid worst-case scenarios
-    (e.g., already sorted lists) that can degrade performance.
+    Класс для быстрой сортировки.
     """
 
     def sort(self, numbers: list[int]) -> list[int]:
         """
-        Sorts a list of integers using the QuickSort algorithm.
+        Сортирует список целых чисел, используя алгоритм QuickSort.
         """
-        # Base case:  If the list has 0 or 1 elements, it's already sorted.
+
+        # Базовый случай: Если список содержит 0 или 1 элемент, он уже отсортирован.
         if len(numbers) <= 1:
             return numbers
 
-        # Choose a random pivot element to avoid worst-case scenarios with sorted/nearly sorted data.
+        # Выбираем случайный опорный элемент, чтобы избежать наихудших сценариев с отсортированными/почти отсортированными данными.
         pivot = choice(numbers)
 
-        # Initialize lists to store elements less than, greater than, and equal to the pivot.
+        # Инициализируем списки для хранения элементов меньше, больше и равных опорному элементу.
         left_nums = []
         right_nums = []
         equals_nums = []
 
-        # Partition the list based on the pivot.  This is the core of the QuickSort algorithm.
+        # Разделяем список на основе опорного элемента. Это ядро алгоритма QuickSort.
         for num in numbers:
             if num < pivot:
                 left_nums.append(num)
@@ -37,10 +43,7 @@ class QuickSort:
             else:
                 equals_nums.append(num)
 
-        # Recursively sort the sub-lists and combine the results.
-        # Note the use of 'self' to call the sort method recursively.  While 'QuickSort.sort(self, ...)'
-        # would also work, using 'self.sort(...)' is more idiomatic and facilitates subclassing.
-        # This implementation creates new lists during each partition and concatenation, resulting in
-        # O(n log n) space complexity in the average case and O(n^2) in the worst case.  In-place partitioning
-        # can reduce space complexity to O(log n).
         return self.sort(left_nums) + equals_nums + self.sort(right_nums)
+
+a = QuickSort()
+print(a.sort("Hello"))
