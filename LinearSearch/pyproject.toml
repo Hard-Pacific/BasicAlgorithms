@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "quicksort"
+name = "linearsearch"
 version = "0.1.0"
 description = ""
 authors = ["HardPacific <93593742+Hard-Pacific@users.noreply.github.com>"]
