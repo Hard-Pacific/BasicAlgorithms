@@ -17,6 +17,9 @@ class BinarySearch:
         if len(numbers) == 0:
             return -1
         
+        if len(numbers)==1 and x != numbers[0]:
+            return -1
+        
         middle = len(numbers)//2
         if x<numbers[middle]:
             return self.search(x, numbers[:middle], __distance)

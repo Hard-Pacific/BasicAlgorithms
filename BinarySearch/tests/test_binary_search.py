@@ -15,7 +15,7 @@ class TestBinarySearch:
 
     def test_binary_search(self, binary_class):
         """
-        Тестирование линейного поиска.
+        Тестирование бинарного поиска.
         """
         assert binary_class.search(1, [1, 2, 3]) == 0
         assert binary_class.search(9999, [-100, -55, -1, 1, 9823, 99999]) == -1
