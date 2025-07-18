@@ -9,13 +9,10 @@ class LinearSearch:
     """
     Класс для линейного поиска.
     """
-
     def search(self, x: int, numbers: list[int]) -> int:
         """
         Функция поиска x в списке numbers
         """
-
-        # Базовый случай: Если список содержит 0 или 1 элемент, он уже отсортирован.
         if len(numbers) == 0:
             return -1
         for i in range(len(numbers)):
