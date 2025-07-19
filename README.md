@@ -2,7 +2,10 @@
  **ENG**: This repository contains implementations of various fundamental algorithms in Python. It's designed as a learning resource for students, developers, and anyone interested in understanding how these algorithms work under the hood.
  > **RU**: Этот репозиторий содержит реализации различных фундаментальных алгоритмов на Python. Он предназначен для обучения студентов, разработчиков и всех, кто интересуется принципами работы этих алгоритмов.
 
-## Алгоритмы сортировки
+<div align="center">
+<h1>Sorting algorithms (Алгоритмы сортировки)</h1>
+</div>
+
 ### [Bubble sort (Сортировка пузырьком)](https://github.com/Hard-Pacific/BasicAlgorithms/tree/main/BubbleSort)
 **ENG**: Simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
 
@@ -23,7 +26,10 @@
 
 > **RU**: Еще один эффективный, универсальный алгоритм сортировки на основе сравнения, основанный на методе "разделяй и властвуй".
 
-## Алгоритмы поиска
+<div align="center">
+<h1>Searching algorithms (Алгоритмы поиска)</h1>
+</div>
+
 ### [Linear search (Линейный поиск)](https://github.com/Hard-Pacific/BasicAlgorithms/tree/main/LinearSearch)
 **ENG**: Linear search is a simple search by enumeration. All elements are sequentially compared with the desired one.
 
