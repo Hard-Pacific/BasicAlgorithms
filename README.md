@@ -1,4 +1,4 @@
-# BasicAlgorithms
+# BasicAlgorithms (Основные алгоритмы)
  **ENG**: This repository contains implementations of various fundamental algorithms in Python. It's designed as a learning resource for students, developers, and anyone interested in understanding how these algorithms work under the hood.
  > **RU**: Этот репозиторий содержит реализации различных фундаментальных алгоритмов на Python. Он предназначен для обучения студентов, разработчиков и всех, кто интересуется принципами работы этих алгоритмов.
 
