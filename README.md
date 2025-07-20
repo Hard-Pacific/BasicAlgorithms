@@ -38,3 +38,18 @@
 ### [Binary search (Бинарный поиск)](https://github.com/Hard-Pacific/BasicAlgorithms/tree/main/BinarySearch)
 **ENG**: Binary search is a type of search algorithm that sequentially divides a pre-sorted array of data in half to locate the desired element.
 > **RU**:Бинарный поиск — тип поискового алгоритма, который последовательно делит пополам заранее отсортированный массив данных, чтобы обнаружить нужный элемент.
+
+<div align="center">
+<h1>Graph theory (Теория графов)</h1>
+</div>
+
+### [BinaryTree (Бинарное дерево)](https://github.com/Hard-Pacific/BasicAlgorithms/tree/main/BinaryTree)
+**ENG**: A tree is a hierarchical data structure consisting of nodes connected by edges. Each node contains a value and references to its child nodes.
+A binary tree is a type of tree data structure in which each node can have at most two child nodes: a left child node and a right child node.
+> **RU**: Дерево — это иерархическая структура данных, состоящая из узлов,
+соединенных ребрами. Каждый узел содержит значение и ссылки 
+на свои дочерние узлы. Двоичное дерево — это тип древовидной структуры данных, в которой
+каждый узел может иметь максимум два дочерних узла: 
+левый дочерний узел и правый дочерний узел.
+
+
