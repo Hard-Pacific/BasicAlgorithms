@@ -1,16 +1,6 @@
 from src.Fibonacci import Fibonacci
 import pytest
 
-class Fibonacci():
-    def generate(self, n):
-        nums = [1, 1]
-        c = 0
-        while nums[-1] < n:
-            nums.append(nums[c] + nums[c+1])
-            c += 1
-        return nums
-
-
 class TestFibonacci:
     @pytest.fixture
     def fibonacci(self):
