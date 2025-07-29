@@ -31,3 +31,4 @@ class TestInsertationSort:
         """
         with pytest.raises(TypeError):
             insertation_class.sort("Hello World")
+
