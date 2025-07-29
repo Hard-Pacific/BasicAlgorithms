@@ -70,17 +70,4 @@ class BinaryTree:
         right_depth = self.__m(node.left)
 
         return max(left_depth, right_depth) + 1
-    
-a = BinaryTree()
-a.add_node(3)
-a.add_node(9)
-a.add_node(20)
-a.add_node(15)
-a.add_node(7)
-
-print("----------")
-print(a.maxDepth())
-
-
-
 
