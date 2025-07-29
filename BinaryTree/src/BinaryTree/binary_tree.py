@@ -63,7 +63,11 @@ class BinaryTree:
 
         return numbers
     
+    def maxDepth(self, node) -> int:
+        if node == None:
+            return 0
+        left_depth = self.__m(node.right)
+        right_depth = self.__m(node.left)
 
-
-
+        return max(left_depth, right_depth) + 1
 
