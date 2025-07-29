@@ -71,9 +71,5 @@ class LinkedList():
                 return True
             node = node.next
         return False
-
-l = LinkedList()
-l.append(5)
-l.contains(5)
-print(l.get_list())
-print(5 in l)
+    
+    
